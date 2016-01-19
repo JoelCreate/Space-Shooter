@@ -350,6 +350,7 @@ GameObject:
   - 4: {fileID: 926027043}
   - 33: {fileID: 926027042}
   - 23: {fileID: 926027041}
+  - 114: {fileID: 926027044}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -402,6 +403,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &926027044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926027040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027000ccc12ebb241b7ad64341faa47f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.025
 --- !u!1 &971657964
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +531,14 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff3ff8d0fe4be1e4c994cf557c7595e4, type: 2}
+    - target: {fileID: 2300000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff3ff8d0fe4be1e4c994cf557c7595e4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
   m_IsPrefabParent: 0
